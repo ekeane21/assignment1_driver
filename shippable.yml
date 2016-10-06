@@ -1,0 +1,10 @@
+# language setting
+language: java
+
+# version numbers, testing against two versions of node
+jdk: 
+  - oraclejdk1.7.0_80
+  
+# Running npm test to run your test cases
+after_success:
+ - mvn test
